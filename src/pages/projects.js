@@ -42,7 +42,11 @@ function Projects() {
         A app that allows you to login, search up a show and see what streaming services allow you to watch it.
     </Text>
     <Text as="u" fontSize="15pt">
-        PokeApp
+        PokeApp:
+    </Text>
+    <Link href="https://github.com/jlimo/PokeApp">code</Link>
+    <Text>
+        A pokedex of a app. search the pokemon and find out new information about them.
     </Text>
     </Box>
     )
