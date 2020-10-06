@@ -20,11 +20,11 @@ function About() {
             margin="0 auto"
             textAlign="center"
             w="40%"
-            fontSize="4xl"
+            fontSize="20pt"
             >
-            Recently studied Software Engineering at General Assembly. I have always loved 
-            technology and think it can be used more in general education and for Greater 
-            Education towards the public.
+            I am a 22 year old Capeverdean who before becoming a software engineer was studying child psychology.
+            I changed paths to software engineer because although I still love psychology I want to be able to help the youth and teach,
+            and I think that software programming in the time of pandemic will be the way towards education. 
             </Text>
         </Box>
         </Flex>

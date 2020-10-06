@@ -3,6 +3,8 @@ import { ThemeProvider, CSSReset } from "@chakra-ui/core";
 import {
   About,
   Home,
+  Stacks,
+  Projects,
 } from "./pages";
 import { Navbar, Footer } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -21,6 +23,12 @@ function App() {
        <Route path="/about">  
           <About />
        </Route>
+       <Route path="/projects">
+       <Projects />
+       </Route>
+       <Route path="/stacks">
+       <Stacks />
+       </Route>
      </Switch>
      <Footer />
    </Router>
@@ -31,13 +39,3 @@ function App() {
 export default App;
 
 
-/* <Route path="/projects">
-<FullWidth>
-<Project />
-</FullWidth>
-</Route>
-<Route path="/stacks">
-<FullWidth>
-  <Stacks />
-</FullWidth> 
-</Route> */

@@ -4,7 +4,6 @@ import {
     Box,
     Heading,
     Text,
-    Image
 } from "@chakra-ui/core";
 
 function Home() {
@@ -13,7 +12,6 @@ function Home() {
         display="flex"
         flexDirection="column"
         alignItems="center"
-        gridArea="main"
         margin="auto"
         width="100%"
         height="100%"
@@ -23,6 +21,7 @@ function Home() {
             </Heading>
             <Text color="orange.400" fontSize="20pt">
                 Welcome! I recently completed a full stack software engineering bootcamp at General Assembly.
+                
                 and am seeking full time jobs as a full stack engineer, to help increase my knowledge!
             </Text>
         </Box>

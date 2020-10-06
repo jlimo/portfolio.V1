@@ -7,7 +7,6 @@ import {
     Text,
     Box,
 } from "@chakra-ui/core";
-import { About, projects, Stacks } from "../pages";
 
 
 
@@ -22,36 +21,41 @@ return (
     padding="1.5rem"
     gridArea="nav"
     color="white"
-    bg="blue"
+    bg="blue.400"
     >
-    <Link to="/">
-        <Flex Align="center" mr="{3}">
-        <Heading
-        as="h1"
-        size="lg"
-        letterSpacing={"-.1rem"}
-        color="orange"
-        >
-        J.L
-        </Heading>
-        </Flex>
+    <Link href="/">
+    <Button border="1px" variantColor="orange" variant="solid" >
+            home
+        </Button>  
     </Link>
     
-    <Link to="/Stacks">
-        <Button border="1px" variantColor="orange" variant="outline" >
+    <Link href="/Stacks">
+        <Button border="1px" variantColor="orange" variant="solid" >
             Stacks
         </Button>
     </Link>
-    <Link to="/projects">
-        <Button border="1px" variantColor="orange" variant="outline" >
+    <Link href="/projects">
+        <Button border="1px" variantColor="orange" variant="solid" >
         Projects
         </Button>
     </Link>
-    <Link to="/about">
-        <Button border="1px" variantColor="orange" variant="outline">
+    <Link href="/about">
+        <Button border="1px" variantColor="orange" variant="solid">
             about
         </Button>
     </Link>
+    <Link href="https://github.com/jlimo?tab=repositories">
+        <Button border="1px" variantColor="orange" variant="solid">
+            github
+        </Button>
+    </Link>
+    <Link href="https://www.linkedin.com/in/jolean-lima-0025801b4/">
+        <Button border="1px" variantColor="orange" variant="solid">
+            linkedin
+        </Button>
+    </Link>
+    
+    
     </Flex>
     );
 };
